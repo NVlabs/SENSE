@@ -1,6 +1,6 @@
 #!/bin/bash
 
-conda env create -f sense_conda_environment.yml
+conda env create -f sense_conda_environment.yaml
 
 cd sense/lib/correlation_package
 rm -rf *_cuda.egg-info build dist __pycache__
